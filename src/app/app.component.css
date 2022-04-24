@@ -1,0 +1,16 @@
+.general-container{
+    display:flex;
+    flex-direction: row;   
+    justify-content: center;
+    gap: 10px;
+}
+.containers{
+    
+        background-color: rgb(159, 197, 248);
+        height: 100%;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+}

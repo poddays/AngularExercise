@@ -1,0 +1,13 @@
+.user-single{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(255, 191, 72);
+    border: 1px solid  rgb(247, 167, 19);
+    height:20px;
+    margin-bottom: 10px;
+    width: 230px;
+
+    
+}

@@ -1,0 +1,15 @@
+.order-single{
+    background-color: rgb(68, 56, 235);
+    height: auto;
+    width: auto;
+    padding: 3px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-order{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
