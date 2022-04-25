@@ -1,7 +1,7 @@
 <div class="user-list">
     <h3>user-list.component</h3>
     <!-- <app-user-single *ngFor="let number of [0,0,0,]"></app-user-single> -->
-<ol>
+<!-- <ol>
 <div class="users" *ngFor="let i of persons">
     <li>
         <div class="user">
@@ -13,6 +13,9 @@
     </li>
   
 </div>
-  </ol>
-
+  </ol> -->
+  
+<div class="users">
+    <app-user-single [user]= "persons[0]" > </app-user-single>
+</div>
 </div>
