@@ -1,4 +1,18 @@
 <div class="user-list">
     <h3>user-list.component</h3>
-    <app-user-single *ngFor="let number of [0,0,0,]"></app-user-single>
+    <!-- <app-user-single *ngFor="let number of [0,0,0,]"></app-user-single> -->
+<ol>
+<div class="users" *ngFor="let i of persons">
+    <li>
+        <div class="user">
+            <img src="{{i.profilePhotoUrl}}" alt="" height="80" width="95">
+            <h2>{{i.name}}</h2>
+            <p>{{i.age}}</p>
+            <p>{{i.address.city}}</p>
+        </div>
+    </li>
+  
+</div>
+  </ol>
+
 </div>

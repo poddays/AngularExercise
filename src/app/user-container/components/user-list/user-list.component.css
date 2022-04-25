@@ -8,3 +8,18 @@
     height: 600px;
     
 }
+
+.user{
+    display: flex;
+    align-items: center;
+   
+    flex-direction: row;
+    gap: 20px
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px
+}
