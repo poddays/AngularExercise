@@ -1,6 +1,6 @@
 .user-container{
     background-color: rgb(159, 197, 248);
-    height: 700px;
+    height: auto;
     width: 900px;
     display: flex;
     flex-direction: column;

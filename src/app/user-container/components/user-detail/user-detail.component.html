@@ -1,4 +1,23 @@
 <div class="user-detail" >
 <h3>user-detail.component</h3>
+    <p>id: {{person1.id}}</p>
+    <p>name: {{person1.name}}</p>
+    <p>surname: {{person1.surname}}</p>
+    <p>age: {{person1.age}}</p>
+    <p>Date of birth: {{person1.birth | date: "dd/MMM/yyyy" }} </p>
+
+<h3>Address:</h3>
+    <p>City: {{person1.address.city}}</p>
+    <p>Street: {{person1.address.street}}</p>
+    <p>PostalCode: {{person1.address.postalCode}}</p>
+
+    <p>Role: {{person1.role}}</p>
+    <p>username: {{person1.username}}</p>
+    <img src={{person1.profilePhotoUrl}} alt="" width="120px" height="80px">
+    <p>gender: {{person1.gender}}</p>
+    
+<h3>Company: {{person1.company.name}}</h3>
+    <p>description: {{person1.company.description}}</p>
+    
 
 </div>
