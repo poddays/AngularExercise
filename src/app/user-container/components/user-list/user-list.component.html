@@ -5,12 +5,12 @@
 <div class="users" *ngFor="let i of persons">
    
     <li>
-        <div class="user">
+        <div class="user"  [ngClass]="{'blue': i.role === 'staff', 'red':i.role === 'student', 'green':i.role === 'manager', 'yellow': i.role==='admin' }">
             <img src="{{i.profilePhotoUrl}}" alt="" height="80" width="95">
             <h2>{{i.name}}</h2>
             <p>{{i.age}}</p>
             <p>{{i.address.city}}</p>
-            <button (click)="deleteElement(i.name)">Delete</button>
+            <button id="btn" (click)="deleteElement(i.name)">Delete</button>
         </div>
     </li>
     
