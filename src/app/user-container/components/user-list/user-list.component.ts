@@ -62,10 +62,15 @@ export class UserListComponent implements OnInit {
       gender: genders.female
     }
   ]
+  }
 
 
-
-    
+  deleteElement(name:any){
+    for (let i = 0; i < this.persons.length; i++) {
+      if (this.persons[i]['name'] == name) {
+        this.persons.splice(i,1)
+      }
+    }
   }
 
   ngOnInit(): void {
