@@ -3,6 +3,7 @@
     <!-- <app-user-single *ngFor="let number of [0,0,0,]"></app-user-single> -->
 <ol>
 <div class="users" *ngFor="let i of persons">
+   
     <li>
         <div class="user">
             <img src="{{i.profilePhotoUrl}}" alt="" height="80" width="95">
@@ -12,8 +13,10 @@
             <button (click)="deleteElement(i.name)">Delete</button>
         </div>
     </li>
-  
+    
 </div>
   </ol>
-
+  <div *ngIf="!persons.length">
+    <p>Non Sono presenti utenti</p>
+</div>
 </div>
