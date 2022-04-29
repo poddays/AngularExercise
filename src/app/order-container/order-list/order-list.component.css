@@ -1,11 +1,12 @@
 .order-list{
-    background-color: rgb(174, 134, 211);
+    background-color: rgb(237, 221, 252);
+    border: 1px solid rgb(160, 34, 143);
     height: auto;
     width: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    gap: 15px;
+    gap: 53px;
     
 }

@@ -1,6 +1,7 @@
 .user-container{
-    background-color: rgb(159, 197, 248);
-    height: 700px;
+    background-color: rgb(201, 224, 255);
+    border: 1px solid rgb(144, 144, 247);
+    height: auto;
     width: 900px;
     display: flex;
     flex-direction: column;

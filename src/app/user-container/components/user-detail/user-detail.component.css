@@ -1,5 +1,6 @@
 .user-detail{
-    background-color: yellow;
+    background-color: rgb(253, 236, 204);
     padding: 3px 10px;
     height: 600px;
+    border: 1px solid rgb(143, 143, 21);
 }

@@ -1,6 +1,7 @@
 .order-container{
-    background-color: rgb(248, 159, 159);
-    height: 700px;
+    background-color: rgb(255, 184, 184);
+    border: 1px solid rgb(223, 97, 97);
+    height: auto;
     width: 900px;
     display: flex;
     flex-direction: column;
