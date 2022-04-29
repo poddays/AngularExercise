@@ -1,20 +1,19 @@
 .user-list{
     width: auto;
-    background-color: green;
+    background-color: rgb(157, 231, 157);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3px 10px;
     height: 600px;
+    border: 1px solid rgb(72, 206, 72);
     
 }
 
-.users{
+.user{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 30px
-
+   
+    flex-direction: row;
+    gap: 20px
 }
