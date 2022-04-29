@@ -23,17 +23,17 @@
     justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
-    border: 1px solid black;
+  
 }
-.blue{
-    border: 2px solid blue;
+.staff{
+    border: 2px solid rgb(34, 34, 66);
 }
-.green{
+.student{
     border: 2px solid rgb(20, 165, 45);
 }
-.red{
-    border: 2px solid rgb(223, 29, 29);
+.manager{
+    border: 2px solid rgb(134, 141, 177);
 }
-.yellow{
-    border: 2px solid rgb(154, 216, 11);
+.admin{
+    border: 2px solid rgb(196, 196, 196);
 }

@@ -5,7 +5,7 @@
 <div class="users" *ngFor="let i of persons">
    
     <li>
-        <div class="user"  [ngClass]="{'blue': i.role === 'staff', 'red':i.role === 'student', 'green':i.role === 'manager', 'yellow': i.role==='admin' }">
+        <div class="user"  [ngClass]="{'staff': i.role === 'staff', 'student':i.role === 'student', 'manager':i.role === 'manager', 'admin': i.role==='admin' }">
             <img src="{{i.profilePhotoUrl}}" alt="" height="80" width="95">
             <h2>{{i.name}}</h2>
             <p>{{i.age}}</p>
