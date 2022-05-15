@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-single.component.css']
 })
 export class UserSingleComponent implements OnInit {
-
+  showUD:boolean = false
+  
   constructor() { }
 
   ngOnInit(): void {
+  }
+  showUserDetail(){
+    this.showUD = !this.showUD
   }
 
 }

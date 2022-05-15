@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output,EventEmitter } from '@angular/core';
 interface IPerson{
   id: number, 
   name: string, 
@@ -72,12 +72,17 @@ export class UserDetailComponent implements OnInit {
     },
   }
 
+
   constructor() { 
     
   }
-
+  
   ngOnInit(): void {
     
+  }
+  @Output() close = new EventEmitter<void>()
+  closeEvent() {
+    this.close.emit();
   }
 
 }

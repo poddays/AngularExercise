@@ -1,8 +1,8 @@
-
+<app-navbar (showEventOrder)="showOrder()" (showEventUser)="showUser()"></app-navbar>
 <div class="general-container">
 
-    <app-user-container></app-user-container>
+    <app-user-container *ngIf="showUserContainer"></app-user-container>
 
-    <app-order-container></app-order-container>
+    <app-order-container *ngIf=" showOrderContainer"></app-order-container>
 
 </div>

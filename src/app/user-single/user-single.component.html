@@ -1,4 +1,6 @@
 <div class="user-single">
- <h3>user-single.component</h3>
+     <h3>user-single.component</h3>
+    <button (click)="showUserDetail()">Show User-detail</button>
 
+    <app-user-detail (close) = "showUserDetail()" *ngIf="showUD" ></app-user-detail>
 </div>
